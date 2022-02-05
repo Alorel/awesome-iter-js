@@ -1,0 +1,7 @@
+﻿{
+  "name": "@aloreljs/awesome-iter/consumers",
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "module": "../_esm2015/consumers/index.js",
+  "sideEffects": false
+}

@@ -1,25 +1,18 @@
 {
-  "name": "@alorel/xxxxxxxxxx",
+  "name": "@aloreljs/awesome-iter",
   "private": true,
   "version": "0.0.0",
-  "description": "xxxxxxxxxx",
+  "description": ".",
   "main": "index.js",
-  "module": "_esm5/index.js",
-  "esm5": "_esm5/index.js",
-  "fesm5": "_fesm5/index.js",
-  "es2015": "_esm2015/index.js",
-  "esm2015": "_esm2015/index.js",
-  "fesm2015": "_fesm2015/index.js",
-  "jsdelivr": "_umd/index.min.js",
-  "browser": "_umd/index.js",
-  "repository": "https://github.com/Alorel/xxxxxxxxxx.git",
+  "module": "_esm2015/index.js",
+  "repository": "https://github.com/Alorel/awesome-iter-js.git",
   "types": "index.d.ts",
   "typings": "index.d.ts",
   "author": "Arturas Molcanovas <a.molcanovas@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "rollup": "del-cli -f dist && rollup -c --cjs2015 --esm2015 --stdumd --minumd --dts",
-    "rollup:watch": "del-cli -f dist && rollup -c --watch --cjs2015 --esm2015 --stdumd",
+    "rollup": "del-cli -f dist && rollup -c --cjs2015 --esm2015 --dts",
+    "rollup:watch": "npm --scripts-prepend-node-path=auto run rollup -- -w",
     "sync-pkg": "node build/rollup/_syncPkg.js --run-sync-pkg",
     "doctoc": "doctoc --github README.md",
     "release": "semantic-release",
@@ -67,7 +60,6 @@
     "typescript": "^4.5.5"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   }
 }

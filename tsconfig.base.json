@@ -14,7 +14,7 @@
     "newLine": "lf",
     "target": "es2017",
     "noImplicitAny": true,
-    "noImplicitReturns": true,
+    "noImplicitReturns": false,
     "noImplicitThis": true,
     "strictBindCallApply": true,
     "resolveJsonModule": true,

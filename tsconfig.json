@@ -5,6 +5,8 @@
     "module": "es2015"
   },
   "files": [
-    "projects/core/index.ts"
+    "projects/awesome-iter/pipes/index.ts",
+    "projects/awesome-iter/consumers/index.ts",
+    "projects/awesome-iter/index.ts"
   ]
 }
