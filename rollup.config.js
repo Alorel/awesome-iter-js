@@ -180,7 +180,7 @@ function createConfig(rollupConfig) {
           ...tryAddCopyPlugin()
         ],
         preserveModules: true
-      })
+      });
     }
     if (esm2015) {
       outConfig.push({
@@ -195,7 +195,7 @@ function createConfig(rollupConfig) {
           ...tryAddCopyPlugin()
         ],
         preserveModules: true
-      })
+      });
     }
   }
 
