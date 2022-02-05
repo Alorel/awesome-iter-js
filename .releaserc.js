@@ -19,18 +19,17 @@ module.exports = {
     NPM,
     exec('npm run sync-pkg'),
     exec('npm run doctoc'),
+    exec('npm run rollup'),
     {
       assets: [
         'CHANGELOG.md',
         'README.md',
         'package.json',
         'package-lock.json',
-        ...projectNames.flatMap(n => [`projects/${n}/package.json`, `projects/${n}.README.md`])
       ],
       message: 'chore(release): ${nextRelease.version}',
       path: '@semantic-release/git'
     },
-    exec('npm run rollup')
   ],
   publish: [
     ...projectNames.map(p => exec(`bash -c "cd dist/${p} && npm publish"`)),

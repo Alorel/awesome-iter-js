@@ -1,0 +1,7 @@
+﻿{
+  "name": "@aloreljs/awesome-iter/pipes",
+  "types": "./index.d.ts",
+  "main": "./index.js",
+  "module": "../_esm2015/pipes/index.js",
+  "sideEffects": false
+}

@@ -15,10 +15,19 @@ module.exports = {
   ],
   root: true,
   parserOptions: {
-    project: require('path').join(__dirname, 'tsconfig.json')
+    project: require('path').join(__dirname, 'tsconfig.test.json')
   },
   rules: {
     '@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
-    'no-duplicate-imports': 'off'
-  }
+    'no-duplicate-imports': 'off',
+    'consistent-return': 'off',
+  },
+  overrides: [
+    {
+      files: ['*.spec.ts'],
+      rules: {
+        '@typescript-eslint/no-magic-numbers': 'off',
+      }
+    }
+  ]
 };

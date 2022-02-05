@@ -70,7 +70,11 @@ function createConfig(rollupConfig) {
 
   const baseSettings = {
     external: _buildBaseExternals,
-    input: join(projectDir, 'index.ts'),
+    input: [
+      join(projectDir, 'index.ts'),
+      join(projectDir, 'pipes', 'index.ts'),
+      join(projectDir, 'consumers', 'index.ts'),
+    ],
     watch: {
       exclude: 'node_modules/**/*'
     }
@@ -100,12 +104,12 @@ function createConfig(rollupConfig) {
         require('@alorel/rollup-plugin-copy').copyPlugin({
           copy: [
             {
-              from: 'LICENSE',
+              from: ['LICENSE', 'README.md'],
               opts: {glob: {cwd: __dirname}}
             },
             {
-              from: 'README.md',
-              opts: {glob: {cwd: projectDir}}
+              from: '**/*.json',
+              opts: {glob: {cwd: join(projectDir, 'copy')}}
             }
           ],
           defaultOpts: {
