@@ -1,3 +1,15 @@
+## [1.0.1](https://github.com/Alorel/awesome-iter-js/compare/1.0.0...1.0.1) (2022-02-05)
+
+
+### Bug Fixes
+
+* **docs:** Fix docs link in README ([38aaddd](https://github.com/Alorel/awesome-iter-js/commit/38aadddaebd62e3c9172462011373001090fcbe3))
+
+
+### Maintenance
+
+* rollup.config.js code style ([2eeb7a2](https://github.com/Alorel/awesome-iter-js/commit/2eeb7a22a41e45329112fafc7361182eac5a7677))
+
 # 1.0.0 (2022-02-05)
 
 
