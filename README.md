@@ -80,7 +80,7 @@ Just pass an `Iterable` or `Iterator` and `AwesomeIter` will be able to start ma
 
 Pipes manipulate the source `Iterable` or `Iterator` in some way - filter results, map them to different values etc.
 Each pipe has documentation & examples written for it in the
-[projects/awesome-iter/pipes](https://github.com/Alorel/awesome-iter-js/tree/dev-initial/projects/awesome-iter/pipes)
+[projects/awesome-iter/pipes](https://github.com/Alorel/awesome-iter-js/tree/master/projects/awesome-iter/pipes)
 directory and is imported from `@aloreljs/awesome-iter/pipes`, e.g.
 
 ```typescript
@@ -104,7 +104,7 @@ The current list of pipes is as follows:
 Consumers consume the source `Iterable` or `Iterator` & produce a single result - these include functions like those
 in `Array.prototype` that don't necessarily return an array & functions for collecting the source into some JS
 collection. Each consumer has documentation & examples written for it in the
-[projects/awesome-iter/consumers](https://github.com/Alorel/awesome-iter-js/tree/dev-initial/projects/awesome-iter/consumers)
+[projects/awesome-iter/consumers](https://github.com/Alorel/awesome-iter-js/tree/master/projects/awesome-iter/consumers)
 directory and is imported from `@aloreljs/awesome-iter/consumers`, e.g.
 
 ```typescript
