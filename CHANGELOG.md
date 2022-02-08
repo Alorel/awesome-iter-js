@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/Alorel/awesome-iter-js/compare/1.0.1...1.0.2) (2022-02-08)
+
+
+### Bug Fixes
+
+* **package:** Remove exports field ([5dc1408](https://github.com/Alorel/awesome-iter-js/commit/5dc1408713b4481f20e6b686710a6ee60f8d09d7))
+
 ## [1.0.1](https://github.com/Alorel/awesome-iter-js/compare/1.0.0...1.0.1) (2022-02-05)
 
 
