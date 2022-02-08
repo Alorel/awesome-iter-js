@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Alorel/awesome-iter-js/compare/1.0.2...1.0.3) (2022-02-08)
+
+
+### Bug Fixes
+
+* **package:** fix invalid characters messing up npm installs ([821cea7](https://github.com/Alorel/awesome-iter-js/commit/821cea7a1c4a6cf72f09eee81375f83c5ab3a364))
+
 ## [1.0.2](https://github.com/Alorel/awesome-iter-js/compare/1.0.1...1.0.2) (2022-02-08)
 
 
