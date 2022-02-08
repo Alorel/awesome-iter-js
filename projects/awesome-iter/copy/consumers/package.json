@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "@aloreljs/awesome-iter/consumers",
   "types": "./index.d.ts",
   "main": "./index.js",

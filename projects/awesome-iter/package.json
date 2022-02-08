@@ -10,6 +10,23 @@
   "author": "Arturas Molcanovas <a.molcanovas@gmail.com>",
   "license": "MIT",
   "sideEffects": false,
+  "exports": {
+    ".": {
+      "node": "./index.js",
+      "types": "./index.d.ts",
+      "default": "./_esm2015/index.js"
+    },
+    "./consumers": {
+      "node": "./consumers/index.js",
+      "types": "./consumers/index.d.ts",
+      "default": "./_esm2015/consumers/index.js"
+    },
+    "./pipes": {
+      "node": "./pipes/index.js",
+      "types": "./pipes/index.d.ts",
+      "default": "./_esm2015/pipes/index.js"
+    }
+  },
   "publishConfig": {
     "access": "public"
   }
